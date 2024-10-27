@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <title>Halaman Baru</title>
+    <script>
+      function changeTextColor() {
+          // Mendapatkan elemen h1
+          var h1Element = document.querySelector(".01");
+      
+          // Mengubah warna teks menjadi merah
+          h1Element.style.color = 'red';
+          h1Element.style.fontFamily = 'Comic Sans MS';
+      }
+      </script>
+  </head>
+  <body>
+
+    <button
+      type="button"
+      onclick="document.getElementById('demo').innerHTML = Date()"
+    >
+      Click me to display Date and Time.
+    </button>
+    <p id="demo"></p>
+
+
+    <button style="background-color:red; border-color:blue; color:white"; onclick="document.body.style.backgroundColor='red'">Merah</button>
+    <button onclick="document.body.style.backgroundColor='orange'">Jingga</button>
+    <button class="01"; onclick="document.body.style.backgroundColor='yellow'">Kuning</button>
+    <button onclick="document.body.style.backgroundColor='green'">Hijau</button>
+    <button onclick="document.body.style.backgroundColor='blue'">Biru</button>
+    <button onclick="document.body.style.backgroundColor='indigo'">Nila</button>
+    <button onclick="document.body.style.backgroundColor='purple'">Ungu</button>
+    <button onclick="document.body.style.backgroundColor='white'">Putih</button>
+
+    <h1>test</h1>
+    <button onclick="changeTextColor()"> change h1 color</button>
+
+    <br>
+    Anda berada pada halaman baru kami.
+  </body>
+</html>

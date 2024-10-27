@@ -1,0 +1,19 @@
+html{
+    background-color: #c084fc;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+form{
+    width: 300px;
+    margin: auto;
+    background:white;
+    padding: 47px;
+    border: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 20px #a3e635;
+}
