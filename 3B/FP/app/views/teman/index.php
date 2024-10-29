@@ -1,6 +1,6 @@
 <div class="container mt-5">
     <div class="row">
-        <h3 class="display-6">DAFTAR Teman</h3>
+        <h3 class="display-6">DAFTAR TEMAN</h3>
 
         <?php foreach( $data['tmn'] as $tmn) : ?>
             <div class="card mb-4" style="max-width: 540px; margin-left: 10px;">

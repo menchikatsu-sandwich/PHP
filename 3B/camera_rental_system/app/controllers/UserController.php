@@ -34,9 +34,9 @@ class UserController extends Controller {
                 echo "Role: " . $user['role'];
 
                 if ($user['role'] == 'admin') {
-                    header('Location:' . BASEURL . '/camera/admin');
+                    header('Location:' . BASEURL . '/dashboard/admin');
                 } else {
-                    header('Location: ' . BASEURL . '/camera/index');
+                    header('Location: ' . BASEURL . '/dashboard/customer');
                 }
                 exit();
             } else {

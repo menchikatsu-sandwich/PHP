@@ -1,11 +1,5 @@
-<div class="container">
-<div class="jumbotron mt-4">
-  <h1 class="display-4">Selamat datang di website SANTO</h1>
-  <p class="lead">Halo saya <?= $data['nama']; ?></p>
-  <hr class="my-4">
-  <p>Selamat Datang di Website Daftar Teman Saya</p>
-  <p class="lead">
-    <a class="btn btn-primary btn-lg" href="teman/index" role="button">Selengkapnya</a>
-  </p>
-</div>
+<div class="container-fluid bg-image full-height d-flex flex-column justify-content-center align-items-center text-white text-center">
+  <h1 class="display-3">WELCOME</h1>
+  <p class="lead">SELAMAT DATANG DI WEBSITE SANTO.</p>
+  <a href="<?=BASEURL;?>/teman" class="btn btn-primary btn-lg rounded-pill">Get Started</a>
 </div>
